@@ -14,7 +14,7 @@ This repository is a technical survey of the Docker Hub API.
 
 1.  Execute the application
     ```bash
-    poetry run python main.py -n *namespace* -r *repository* -t *tag*
+    poetry run python main.py -n <namespace> -r <repository> -t <tag>
     ```
     e.g.
     ```bash

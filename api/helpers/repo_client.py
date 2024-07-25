@@ -1,3 +1,5 @@
+# Copyright (c) 2024 RFull Development
+# This source code is managed under the MIT license. See LICENSE in the project root.
 from typing import Any
 
 from kiota_abstractions.authentication.anonymous_authentication_provider import \
