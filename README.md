@@ -1,37 +1,22 @@
-# Python Project Repository
+# Docker Hub Api Technical Survey Repository
 
-This repository is a Python Project.
+This repository is a technical survey of the Docker Hub API.
 
 ## Overview
 
 ## Requirements
 
-## Container image info
+- Python 3.12 and later
 
 ## How to use
 
 ### Execution on local machine
 
-1.  Start the application
+1.  Execute the application
     ```bash
-    python main.py
+    poetry run python main.py -n <namespace> -r <repository> -t <tag>
     ```
-
-### Execution on Docker
-
-1.  Start the application
+    e.g.
     ```bash
-    docker compose up -d
-    ```
-
-### Execution on Kubernetes
-
-1. Register the Helm repository
-    ```bash
-    helm repo add rfull-development http://charts.ngv.jp
-    helm repo update
-    ```
-1. Deploy the application
-    ```bash
-    helm install rfull-development/<release-name> --namespace <namespace> --create-namespace
+    poetry run python main.py -n library -r hello-world -t latest
     ```
