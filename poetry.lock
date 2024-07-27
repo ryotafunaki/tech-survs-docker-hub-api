@@ -285,13 +285,13 @@ pendulum = ">=3.0.0"
 
 [[package]]
 name = "microsoft-kiota-serialization-json"
-version = "1.2.0"
+version = "1.3.0"
 description = "Implementation of Kiota Serialization interfaces for JSON"
 optional = false
 python-versions = "*"
 files = [
-    {file = "microsoft_kiota_serialization_json-1.2.0-py2.py3-none-any.whl", hash = "sha256:cf68ef323157b3566b043d2282b292479bca6af0ffcf08385c806c812e507a58"},
-    {file = "microsoft_kiota_serialization_json-1.2.0.tar.gz", hash = "sha256:89a4ec0128958bc92287db0cf5b6616a9f66ac42f6c7bcfe8894393d2156bed9"},
+    {file = "microsoft_kiota_serialization_json-1.3.0-py2.py3-none-any.whl", hash = "sha256:fbf82835d8b77ef21b496aa711a512fe4494fa94dfe88f7fd014dffe33778e20"},
+    {file = "microsoft_kiota_serialization_json-1.3.0.tar.gz", hash = "sha256:235b680e6eb646479ffb7b59d2a6f0216c4f7e1c2ff1219fd4d59e898fa6b124"},
 ]
 
 [package.dependencies]
@@ -723,4 +723,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "ade1089850682716f506751981f833cd1cc1f073101536b1c74b7bb95ace8dbf"
+content-hash = "2971cbd9c45392d52b67d75405e5e96c929a3291fd0d5e087be21da92ab2a701"
