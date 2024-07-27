@@ -1,5 +1,7 @@
 .vscode/
 .vs/
+.venv/
 
 __pycache__/
-.venv/
+**/*.pyc
+**/*.log
