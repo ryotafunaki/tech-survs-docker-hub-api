@@ -1,7 +1,10 @@
 from __future__ import annotations
+
 from dataclasses import dataclass, field
-from kiota_abstractions.serialization import AdditionalDataHolder, Parsable, ParseNode, SerializationWriter
-from typing import Any, Callable, Dict, List, Optional, TYPE_CHECKING, Union
+from typing import TYPE_CHECKING, Any, Callable, Dict, List, Optional
+
+from kiota_abstractions.serialization import (AdditionalDataHolder, Parsable,
+                                              ParseNode, SerializationWriter)
 
 if TYPE_CHECKING:
     from .image_status import Image_status
@@ -54,9 +57,6 @@ class Image(AdditionalDataHolder, Parsable):
         The deserialization information for the current model
         Returns: Dict[str, Callable[[ParseNode], None]]
         """
-        from .image_status import Image_status
-        from .layer import Layer
-
         from .image_status import Image_status
         from .layer import Layer
 

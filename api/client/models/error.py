@@ -1,8 +1,10 @@
 from __future__ import annotations
+
 from dataclasses import dataclass, field
+from typing import Any, Callable, Dict, Optional
+
 from kiota_abstractions.api_error import APIError
-from kiota_abstractions.serialization import AdditionalDataHolder, Parsable, ParseNode, SerializationWriter
-from typing import Any, Callable, Dict, List, Optional, TYPE_CHECKING, Union
+from kiota_abstractions.serialization import ParseNode, SerializationWriter
 
 
 @dataclass
