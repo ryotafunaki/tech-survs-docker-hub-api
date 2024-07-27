@@ -14,7 +14,6 @@ class RepoInfo:
         self.namespace = ""
         self.repository = ""
         self.tag = ""
-        pass
 
 
 class RepoClient:

@@ -1,11 +1,14 @@
 from __future__ import annotations
+
+from typing import TYPE_CHECKING, Any, Dict, Union
+
 from kiota_abstractions.base_request_builder import BaseRequestBuilder
 from kiota_abstractions.get_path_parameters import get_path_parameters
 from kiota_abstractions.request_adapter import RequestAdapter
-from typing import Any, Callable, Dict, List, Optional, TYPE_CHECKING, Union
 
 if TYPE_CHECKING:
-    from .item.with_namespace_item_request_builder import WithNamespaceItemRequestBuilder
+    from .item.with_namespace_item_request_builder import \
+        WithNamespaceItemRequestBuilder
 
 
 class NamespacesRequestBuilder(BaseRequestBuilder):
@@ -31,7 +34,8 @@ class NamespacesRequestBuilder(BaseRequestBuilder):
         """
         if not namespace:
             raise TypeError("namespace cannot be null.")
-        from .item.with_namespace_item_request_builder import WithNamespaceItemRequestBuilder
+        from .item.with_namespace_item_request_builder import \
+            WithNamespaceItemRequestBuilder
 
         url_tpl_params = get_path_parameters(self.path_parameters)
         url_tpl_params["namespace"] = namespace

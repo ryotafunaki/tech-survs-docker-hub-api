@@ -1,11 +1,14 @@
 from __future__ import annotations
+
+from typing import TYPE_CHECKING, Any, Dict, Union
+
 from kiota_abstractions.base_request_builder import BaseRequestBuilder
 from kiota_abstractions.get_path_parameters import get_path_parameters
 from kiota_abstractions.request_adapter import RequestAdapter
-from typing import Any, Callable, Dict, List, Optional, TYPE_CHECKING, Union
 
 if TYPE_CHECKING:
-    from .item.with_repository_item_request_builder import WithRepositoryItemRequestBuilder
+    from .item.with_repository_item_request_builder import \
+        WithRepositoryItemRequestBuilder
 
 
 class RepositoriesRequestBuilder(BaseRequestBuilder):
@@ -31,7 +34,8 @@ class RepositoriesRequestBuilder(BaseRequestBuilder):
         """
         if not repository:
             raise TypeError("repository cannot be null.")
-        from .item.with_repository_item_request_builder import WithRepositoryItemRequestBuilder
+        from .item.with_repository_item_request_builder import \
+            WithRepositoryItemRequestBuilder
 
         url_tpl_params = get_path_parameters(self.path_parameters)
         url_tpl_params["repository"] = repository

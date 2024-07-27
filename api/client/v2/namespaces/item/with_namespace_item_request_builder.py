@@ -1,11 +1,13 @@
 from __future__ import annotations
+
+from typing import TYPE_CHECKING, Any, Dict, Union
+
 from kiota_abstractions.base_request_builder import BaseRequestBuilder
-from kiota_abstractions.get_path_parameters import get_path_parameters
 from kiota_abstractions.request_adapter import RequestAdapter
-from typing import Any, Callable, Dict, List, Optional, TYPE_CHECKING, Union
 
 if TYPE_CHECKING:
-    from .repositories.repositories_request_builder import RepositoriesRequestBuilder
+    from .repositories.repositories_request_builder import \
+        RepositoriesRequestBuilder
 
 
 class WithNamespaceItemRequestBuilder(BaseRequestBuilder):
@@ -28,6 +30,7 @@ class WithNamespaceItemRequestBuilder(BaseRequestBuilder):
         """
         The repositories property
         """
-        from .repositories.repositories_request_builder import RepositoriesRequestBuilder
+        from .repositories.repositories_request_builder import \
+            RepositoriesRequestBuilder
 
         return RepositoriesRequestBuilder(self.request_adapter, self.path_parameters)
