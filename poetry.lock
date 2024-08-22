@@ -298,13 +298,13 @@ opentelemetry-sdk = ">=1.20.0"
 
 [[package]]
 name = "microsoft-kiota-serialization-form"
-version = "0.1.0"
+version = "0.1.1"
 description = "Implementation of Kiota Serialization Interfaces for URI-Form encoded serialization"
 optional = false
 python-versions = "*"
 files = [
-    {file = "microsoft_kiota_serialization_form-0.1.0-py2.py3-none-any.whl", hash = "sha256:5bc76fb2fc67d7c1f878f876d252ea814e4fc38df505099b9b86de52d974380a"},
-    {file = "microsoft_kiota_serialization_form-0.1.0.tar.gz", hash = "sha256:663ece0cb1a41fe9ddfc9195aa3f15f219e14d2a1ee51e98c53ad8d795b2785d"},
+    {file = "microsoft_kiota_serialization_form-0.1.1-py2.py3-none-any.whl", hash = "sha256:7a2da956edd3329ff74ec1a34eded910fd9cda57ce8c71f3797e359adc9993f7"},
+    {file = "microsoft_kiota_serialization_form-0.1.1.tar.gz", hash = "sha256:f72dd50081250d1e49111682eccf620d3c2e335195d50c096b35ec5a5ef59a54"},
 ]
 
 [package.dependencies]
@@ -751,4 +751,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "53215d0c431b063c91837a826048d17009ad8bc529564564d42075b2df8fa144"
+content-hash = "c035abf7ccaeb6d259518bda87a67369b443a64703e10027bca3e3a9791028d9"
