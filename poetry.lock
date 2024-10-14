@@ -281,13 +281,13 @@ std-uritemplate = ">=0.0.38"
 
 [[package]]
 name = "microsoft-kiota-http"
-version = "1.3.3"
+version = "1.3.4"
 description = "Kiota http request adapter implementation for httpx library"
 optional = false
 python-versions = "*"
 files = [
-    {file = "microsoft_kiota_http-1.3.3-py2.py3-none-any.whl", hash = "sha256:21109a34140bf42e18855b7cf983939b891ae30739f21a9ce045c3a715f325fd"},
-    {file = "microsoft_kiota_http-1.3.3.tar.gz", hash = "sha256:0b40f37c6c158c2e5b2dffa963a7fc342d368c1a64b8cca08631ba19d0ff94a9"},
+    {file = "microsoft_kiota_http-1.3.4-py2.py3-none-any.whl", hash = "sha256:fb7eb9222550b671aa5279fd8701c968b41de2133a6367bd213495f6aae9fbf1"},
+    {file = "microsoft_kiota_http-1.3.4.tar.gz", hash = "sha256:0ba94a5e982575f5a349b71a87aae2e01ff1722cfc0902247b7ef0a9072c1580"},
 ]
 
 [package.dependencies]
@@ -751,4 +751,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "d5af810e01b54f5fda33d07fb8ba68fbd8debcfeed907820d0be0ff0f4380d22"
+content-hash = "79a5dc390fc5916d6c62802406d612771c60abba3575d66391cfb2dc51ec57eb"
