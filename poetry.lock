@@ -272,13 +272,13 @@ files = [
 
 [[package]]
 name = "microsoft-kiota-abstractions"
-version = "1.6.7"
+version = "1.6.8"
 description = "Core abstractions for kiota generated libraries in Python"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "microsoft_kiota_abstractions-1.6.7-py3-none-any.whl", hash = "sha256:18205ad1b1acb0ad650da312a73a194fdaa5f6b4d8f681eb0bc14b5dd6dba355"},
-    {file = "microsoft_kiota_abstractions-1.6.7.tar.gz", hash = "sha256:4bb3d1ffea196b1df8b18ec01cad8c6884a9175b35ca6f12beba38baabefc5bc"},
+    {file = "microsoft_kiota_abstractions-1.6.8-py3-none-any.whl", hash = "sha256:12819dee24d5aaa31e99683d938f65e50cbc446de087df244cd26c3326ec4e15"},
+    {file = "microsoft_kiota_abstractions-1.6.8.tar.gz", hash = "sha256:7070affabfa7182841646a0c8491cbb240af366aff2b9132f0caa45c4837dd78"},
 ]
 
 [package.dependencies]
@@ -288,99 +288,99 @@ std-uritemplate = ">=2.0.0"
 
 [[package]]
 name = "microsoft-kiota-bundle"
-version = "1.6.7"
+version = "1.6.8"
 description = "Bundle package for kiota generated libraries in Python"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "microsoft_kiota_bundle-1.6.7-py3-none-any.whl", hash = "sha256:5231ed4fe00c834af3688e038ce398a7114496e222225c8ce11446e1034b402a"},
-    {file = "microsoft_kiota_bundle-1.6.7.tar.gz", hash = "sha256:b86f3e43d6bcb594ecb10a76a6c5339db2a65a2af904ba35ea554d3f3828b963"},
+    {file = "microsoft_kiota_bundle-1.6.8-py3-none-any.whl", hash = "sha256:b76b6f7cfa592e41c9f8e4c522370455f5a752d7d996e74497453580fa1ef15f"},
+    {file = "microsoft_kiota_bundle-1.6.8.tar.gz", hash = "sha256:d842a4781c204f5a2b59c58d9e99f6a9227910116e1f6acca99451b5c7c68d36"},
 ]
 
 [package.dependencies]
-microsoft-kiota-abstractions = ">=1.6.7,<1.7.0"
-microsoft-kiota-http = ">=1.6.7,<1.7.0"
-microsoft-kiota-serialization-form = ">=1.6.7,<1.7.0"
-microsoft-kiota-serialization-json = ">=1.6.7,<1.7.0"
-microsoft-kiota-serialization-multipart = ">=1.6.7,<1.7.0"
-microsoft-kiota-serialization-text = ">=1.6.7,<1.7.0"
+microsoft-kiota-abstractions = ">=1.6.8,<1.7.0"
+microsoft-kiota-http = ">=1.6.8,<1.7.0"
+microsoft-kiota-serialization-form = ">=1.6.8,<1.7.0"
+microsoft-kiota-serialization-json = ">=1.6.8,<1.7.0"
+microsoft-kiota-serialization-multipart = ">=1.6.8,<1.7.0"
+microsoft-kiota-serialization-text = ">=1.6.8,<1.7.0"
 
 [[package]]
 name = "microsoft-kiota-http"
-version = "1.6.7"
+version = "1.6.8"
 description = "Core abstractions for kiota generated libraries in Python"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "microsoft_kiota_http-1.6.7-py3-none-any.whl", hash = "sha256:9f43804340dc6b8cd0bbd69007ca9f04ae6ddcff2028e72b574c1f79bb3486af"},
-    {file = "microsoft_kiota_http-1.6.7.tar.gz", hash = "sha256:5601b738b7100b599091b708592b1a1c32eaaf60c9edee122e5265d13f2a3b7b"},
+    {file = "microsoft_kiota_http-1.6.8-py3-none-any.whl", hash = "sha256:7ff76a308351d885453185d6a6538c47a64ebdc7661cce46a904e89e2ceb9a1d"},
+    {file = "microsoft_kiota_http-1.6.8.tar.gz", hash = "sha256:67242690b79a30c0cadf823675249269e4bc020283e3d65b33af7d771df64df8"},
 ]
 
 [package.dependencies]
 httpx = {version = ">=0.28", extras = ["http2"]}
-microsoft-kiota-abstractions = ">=1.6.7,<1.7.0"
+microsoft-kiota-abstractions = ">=1.6.8,<1.7.0"
 opentelemetry-api = ">=1.27.0"
 opentelemetry-sdk = ">=1.27.0"
 urllib3 = ">=2.2.2,<3.0.0"
 
 [[package]]
 name = "microsoft-kiota-serialization-form"
-version = "1.6.7"
+version = "1.6.8"
 description = "Core abstractions for kiota generated libraries in Python"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "microsoft_kiota_serialization_form-1.6.7-py3-none-any.whl", hash = "sha256:a93a2ada75b0659438ab90a25076820bb107e4e0dcf0c0a3d4e7c3aaa669d4fd"},
-    {file = "microsoft_kiota_serialization_form-1.6.7.tar.gz", hash = "sha256:60a0200d0df0b6f724a1007bb14c4cfa9d60943ab3477defaddf7a70e4a14103"},
+    {file = "microsoft_kiota_serialization_form-1.6.8-py3-none-any.whl", hash = "sha256:ca7dd19e173aa87c68b38c5056cc0921570c8c86f3ba5511d1616cf97e2f0f67"},
+    {file = "microsoft_kiota_serialization_form-1.6.8.tar.gz", hash = "sha256:bb9eb98b3abf596b4bfe208014dff948361ff48a757316ac58e19c31ab8d640a"},
 ]
 
 [package.dependencies]
-microsoft-kiota-abstractions = ">=1.6.7,<1.7.0"
+microsoft-kiota-abstractions = ">=1.6.8,<1.7.0"
 pendulum = ">=3.0.0b1"
 
 [[package]]
 name = "microsoft-kiota-serialization-json"
-version = "1.6.7"
+version = "1.6.8"
 description = "Core abstractions for kiota generated libraries in Python"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "microsoft_kiota_serialization_json-1.6.7-py3-none-any.whl", hash = "sha256:15c5cc63dac3f52a0f2bd9d9a8e3d3114ddfb4ae254f4f782a476f89f5a9ace5"},
-    {file = "microsoft_kiota_serialization_json-1.6.7.tar.gz", hash = "sha256:4b3937fed74583070bde614700cf557da2ae20efde778987e61b3c0e117d69ba"},
+    {file = "microsoft_kiota_serialization_json-1.6.8-py3-none-any.whl", hash = "sha256:2734c2ad64cc089441279e4962f6fedf41af040730f6eab1533890cd5377aff5"},
+    {file = "microsoft_kiota_serialization_json-1.6.8.tar.gz", hash = "sha256:89e2dd0eb4eaaa6ab74fa89ab5d84c5a53464e73b85eb7085f0aa4560a2b8183"},
 ]
 
 [package.dependencies]
-microsoft-kiota-abstractions = ">=1.6.7,<1.7.0"
+microsoft-kiota-abstractions = ">=1.6.8,<1.7.0"
 pendulum = ">=3.0.0b1"
 
 [[package]]
 name = "microsoft-kiota-serialization-multipart"
-version = "1.6.7"
+version = "1.6.8"
 description = "Core abstractions for kiota generated libraries in Python"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "microsoft_kiota_serialization_multipart-1.6.7-py3-none-any.whl", hash = "sha256:7e98751f168e6a14f8817610100547d8f97f93513147d1411553ae957f28a41a"},
-    {file = "microsoft_kiota_serialization_multipart-1.6.7.tar.gz", hash = "sha256:d434c2a48ee7b11e50c46accd19f3ea8170960894a854760fa1aef3d32d955ea"},
+    {file = "microsoft_kiota_serialization_multipart-1.6.8-py3-none-any.whl", hash = "sha256:1ecdd15dd1f78aed031d7d1828b6fbc00c633542d863c23f96fdd0a61bfb189a"},
+    {file = "microsoft_kiota_serialization_multipart-1.6.8.tar.gz", hash = "sha256:3d95c6d7186588af7a1d3aa852ce42077f80487b8b3c60e36fe109a8b4918c03"},
 ]
 
 [package.dependencies]
-microsoft-kiota-abstractions = ">=1.6.7,<1.7.0"
+microsoft-kiota-abstractions = ">=1.6.8,<1.7.0"
 pendulum = ">=3.0.0b1"
 
 [[package]]
 name = "microsoft-kiota-serialization-text"
-version = "1.6.7"
+version = "1.6.8"
 description = "Core abstractions for kiota generated libraries in Python"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "microsoft_kiota_serialization_text-1.6.7-py3-none-any.whl", hash = "sha256:747cc706227c078855d6b11c545cd485e78b7e1d1a69792a85e5ddad7b356648"},
-    {file = "microsoft_kiota_serialization_text-1.6.7.tar.gz", hash = "sha256:0913ad9e9b43505a9fd4f83df052398828fb8168bf7a885743c4af30b5c0bb72"},
+    {file = "microsoft_kiota_serialization_text-1.6.8-py3-none-any.whl", hash = "sha256:4e5e287a614d362f864b5061dca0861c3f70b8792ec72967d1bff23944da1e80"},
+    {file = "microsoft_kiota_serialization_text-1.6.8.tar.gz", hash = "sha256:687d4858337eaf4f351b12ed1c6c934d869560f54ee3855bfdde589660e07208"},
 ]
 
 [package.dependencies]
-microsoft-kiota-abstractions = ">=1.6.7,<1.7.0"
+microsoft-kiota-abstractions = ">=1.6.8,<1.7.0"
 python-dateutil = "2.9.0.post0"
 
 [[package]]
@@ -783,4 +783,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "79cbc4e6ecb61a05a2ef44eaff63b6cd3c578a306aebfff9df3248ca789f605c"
+content-hash = "51fd7fc279aa5321e877dc8cc4507906e2aa7600bc70d8a8e12b0951eefb392f"
