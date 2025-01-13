@@ -9,7 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 urllib3 = "^2.3.0"
-microsoft-kiota-bundle = "^1.6.8"
+microsoft-kiota-bundle = "^1.7.0"
 
 [tool.poetry.group.dev.dependencies]
 autopep8 = "^2.3.1"
